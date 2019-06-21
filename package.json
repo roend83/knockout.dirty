@@ -7,6 +7,13 @@
   },
   "license": "MIT",
   "repository": "ssh://git@github.com:soleilnoirmedia/knockout.dirty.git",
+  "main": "src/knockout.dirty.js",
+  "files": [
+    "src"
+  ],
+  "peerDependencies": {
+    "knockout": ">=2.3.0"
+  },
   "devDependencies": {
     "blanket": "^1.1.7",
     "bower": "^1.4.1",
